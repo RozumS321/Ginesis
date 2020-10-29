@@ -4,144 +4,132 @@
             "id": "1",
             "title": "How old your elder brother was 10 years before you was born, mate?",
             "price": "500$",
-            "answers":{
-                "A": "10 years",
-                "B": "11 years",
-                "C": "12 years",
-                "D": "13 years"
-            },
-            "right": "A"
+            "answers":[
+                {"A": "10 years", "isRight":"true"},
+                {"B": "11 years","isRight":"false"},
+                {"C": "12 years","isRight":"false"},
+                {"D": "13 years","isRight":"false"}
+            ]
         },
         {
             "id": "2",
             "title": "In the UK, the abbreviation NHS stands for National 'What' Service?",
             "price": "1,000$",
-            "answers":{
-                "A": "Humanity",
-                "B": "Health",
-                "C": "Honour",
-                "D": "Household"
-            },
-            "right": "B"
+            "answers":[
+                {"A": "Humanity", "isRight":"false"},
+                {"B": "Health", "isRight":"true"},
+                { "C": "Honour", "isRight":"false"},
+                { "D": "Household", "isRight":"false"}
+            ]
         },
         {
             "id": "3",
             "title": "Which Disney character famously leaves a glass slipper behind at a royal ball?",
             "price": "2,000$",
-            "answers":{
-                "A": "Pocahontas",
-                "B": "Sleeping Beauty",
-                "C": "Cinderella",
-                "D": "Elsa"
-            },
-            "right": "C"
+            "answers":[
+                {"A": "Pocahontas", "isRight":"false"},
+                {"B": "Sleeping Beauty", "isRight":"false"},
+                {"C": "Cinderella", "isRight":"true"},
+                {"D": "Elsa", "isRight":"false"}
+            ]
         },
         {
             "id": "4",
             "title": "What name is given to the revolving belt machinery in an airport that delivers checked luggage from the plane to baggage reclaim?",
             "price": "4,000$",
-            "answers":{
-                "A": "Hangar",
-                "B": "Terminal",
-                "C": "Concourse",
-                "D": "Carousel"
-            },
-            "right": "D"
+            "answers":[
+                {"A": "Hangar", "isRight":"false"},
+                {"B": "Terminal", "isRight":"false"},
+                {"C": "Concourse", "isRight":"false"},
+                {"D": "Carousel", "isRight":"true"}
+            ]
         },
         {
             "id": "5",
             "title": "Which of these brands was chiefly associated with the manufacture of household locks? ",
             "price": "8,000$",
-            "answers":{
-                "A": "Phillips",
-                "B": "Flymo",
-                "C": "Chubb",
-                "D": "Ronseal"
-            },
-            "right": "C"
+            "answers":[
+                {"A": "Phillips", "isRight":"false"},
+                {"B": "Flymo", "isRight":"false"},
+                {"C": "Chubb", "isRight":"true"},
+                {"D": "Ronseal", "isRight":"false"}
+            ]
         },
         {
             "id": "6",
             "title": "The hammer and sickle is one of the most recognisable symbols of which political ideology?",
             "price": "16,000$",
-            "answers":{
-                "A": "Republicanism",
-                "B": "Communism",
-                "C": "Conservatism",
-                "D": "Liberalism"
-            },
-            "right": "B"
+            "answers":[
+                {"A": "Republicanism", "isRight":"false"},
+                {"B": "Communism", "isRight":"true"},
+                {"C": "Conservatism", "isRight":"false"},
+                {"D": "Liberalism", "isRight":"false"}
+            ]
         },
         {
             "id": "7",
             "title": ". Which toys have been marketed with the phrase 'Robots in Disguise'?",
             "price": "32,000$",
-            "answers":{
-                "A": "Bratz Dolls",
-                "B": " Sylvanian Families",
-                "C": "Hatchimals",
-                "D": "Transformers"
-            },
-            "right": "D"
+            "answers":[
+                {"A": "Bratz Dolls", "isRight":"false"},
+                {"B": " Sylvanian Families", "isRight":"false"},
+                {"C": "Hatchimals", "isRight":"false"},
+                {"D": "Transformers", "isRight":"true"}
+            ]
         },
         {
             "id": "8",
             "title": "What does the word loquacious mean?",
             "price": "64,000$",
-            "answers":{
-                "A": "Angry",
-                "B": "Chatty",
-                "C": "Beautiful",
-                "D": "Shy"
-            },
-            "right": "B"
+            "answers":[
+                { "A": "Angry", "isRight":"false"},
+                { "B": "Chatty", "isRight":"true"},
+                {"C": "Beautiful", "isRight":"false"},
+                {"D": "Shy", "isRight":"false"}
+            ]
         },
         {   "id": "9",
             "title": "Obstetrics is a branch of medicine particularly concerned with what?",
             "price": "125,000$",
-            "answers":{
-                "A": "Childbirth",
-                "B": "Broken bones",
-                "C": "Heart conditions",
-                "D": "Old age"
-            },
-            "right": "A"
+            "answers":[
+                {"A": "Childbirth", "isRight":"true"},
+                {"B": "Broken bones", "isRight":"false"},
+                {"C": "Heart conditions", "isRight":"false"},
+                {"D": "Old age", "isRight":"false"}
+            ]
         },
         {
             "id": "10",
             "title": "In Doctor Who, what was the signature look of the fourth Doctor, as portrayed by Tom Baker?",
             "price": "250,000$",
-            "answers":{
-                "A": "Bow-tie, braces & tweed jacket",
-                "B": "Wide-brimmed hat & extra long scarf",
-                "C": "Pinstripe suit & trainers",
-                "D": "Cape, velvet jacket & frilly shirt"
-            },
-            "right": "B"
+            "answers":[
+               { "A": "Bow-tie, braces & tweed jacket", "isRight":"false"},
+                {"B": "Wide-brimmed hat & extra long scarf", "isRight":"true"},
+                {"C": "Pinstripe suit & trainers", "isRight":"false"},
+                {"D": "Cape, velvet jacket & frilly shirt", "isRight":"false"}
+            ]
         },
         {
             "id": "11",
             "title": "Which of these religious observances lasts for the shortest period of time during the calendar year? ",
             "price": "500,000$",
-            "answers":{
-                "A": "Ramadan",
-                "B": "Diwali",
-                "C": "Lent",
-                "D": "Hanukkah"
-            },
-            "right": "B"
+            "answers":[
+                {"A": "Ramadan", "isRight":"false"},
+                {"B": "Diwali", "isRight":"true"},
+                {"C": "Lent", "isRight":"false"},
+                {"D": "Hanukkah", "isRight":"false"}
+            ]
         },
         {
             "id": "12",
             "title": "At the closest point, which island group is only 50 miles south-east of the coast of Florida? ",
             "price": "1,000,000$",
-            "answers":{
-                "A": "Bahamas",
-                "B": "US Virgin Islands",
-                "C": "Turks and Caicos Islands",
-                "D": "Bermuda"
-            },
-            "right": "A"
+            "answers":[
+                { "A": "Bahamas", "isRight":"true"},
+                {"B": "US Virgin Islands", "isRight":"false"},
+                {"C": "Turks and Caicos Islands", "isRight":"false"},
+                {"D": "Bermuda", "isRight":"false"}
+            ]
         }
     ]
 }

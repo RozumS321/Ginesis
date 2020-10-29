@@ -11,7 +11,7 @@ function Question({question}){
     })
     return(
         <>
-       {questions}
+       {questions[0]}
         </>
         
     )
@@ -19,7 +19,8 @@ function Question({question}){
 
 const mapStateToProps = (state) =>{
     return {
-    question: state.data
+    question: state.data,
+    currentQuestion: state.currentQuestion
     }
 }
 
