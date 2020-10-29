@@ -1,12 +1,27 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import StartGame from '../startGame'
 import OverGame from '../overGame'
 import Game from '../game'
-export default function App(){
+import * as actions from '../../redux/actions'
+import { connect } from 'react-redux'
+
+function App({startGame}){
+
+    useEffect(()=>{
+        startGame()
+    })
 
     return(
-        <Game />
         // <StartGame />
+            <Game />
         // <OverGame/>
     )
+}   
+
+const mapDispatchToProps = (dispatch) => {
+    return {
+        startGame: () => dispatch(actions.startGame())
+    }
 }
+
+export default connect(null, mapDispatchToProps)(App)

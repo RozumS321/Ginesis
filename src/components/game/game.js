@@ -1,12 +1,15 @@
-import React from 'react';
+import React,{useEffect} from 'react';
 import * as actions from '../../redux/actions'
 import {connect} from 'react-redux'
+import Question from './question'
+import Answers from './answers'
+import './game.css'
 
-function Game({startGame,data}){
+function Game(){
     return(
-            <div>
-                <h1 onClick={startGame}>dsdad</h1>
-               
+            <div className='game-rigth'>
+               <Question/>
+               <Answers/>
             </div>
     )
 }

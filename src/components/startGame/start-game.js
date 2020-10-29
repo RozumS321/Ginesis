@@ -7,18 +7,18 @@ export default function StartGame(){
     return(
         <div className='startGame'>
             <div className='content'>
-                <div className='content-left'>
-                    <Logo />
+                
+                <div className="section">
+                    <Logo className="img" />
                 </div>
-                <div className='content-right'>
-                    <div class='content-right-text'>
-                        <h1>Who wants to be a millionaire?</h1>
-                    </div>
 
-                    <div class='content-right-btn'>
-                        <button>Start</button>
+                <div className="section">
+                    <div className="wrap">
+                        <h1 className="title">Who wants to be a millionaire?</h1>
+                        <button className="btn">Start</button>
                     </div>
                 </div>
+
             </div>
         </div>
     )
