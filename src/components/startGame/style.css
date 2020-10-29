@@ -1,0 +1,36 @@
+.startGame{
+    background: linear-gradient(to bottom right, #ffffff 50%, #fff3eb 50%); 
+    width: 100%;
+    height: 100vh;
+
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    order: 1;
+    align-self: flex-start;
+    flex-grow: 0;
+    margin: 0px 64px;
+}
+
+.content-right{
+    display: flex;
+    flex-direction: column;
+}
+.content-right-text{
+    font-family: 'Inter', sans-serif;
+    color: #000;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.content-right-btn button{
+    font-family: 'Inter', sans-serif;
+    background-color: #FF8B37;
+    color: #fff;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;    
+}
