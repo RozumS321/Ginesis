@@ -1,3 +1,16 @@
-.game-rigth{
+.game{
+    display: flex;
+    justify-content: space-between;
     background-color: #E5E5E5;
+
+}
+.game-rigth{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.game-left{
+    background-color: #E5E5E5;
+    max-width: 376px;
+    width: 100%;
 }

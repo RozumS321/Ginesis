@@ -1,0 +1,30 @@
+.wrapper{
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+}
+.answer{
+  margin: 1rem 1rem;
+  background: #fff;
+  border: 1px solid #D0D0D8;
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+}
+span{
+  font-size: 2rem;
+  margin: 0 10px;
+  color: #FF8B37;
+}
+h1{
+  font-size: 2rem;
+  border: none
+}
+.correct{
+border: 1px solid #47D867;
+background:  #E6FAEA;
+}
+.wrong{
+background: #FDEEED;
+border: 1px solid #EC6259;
+}

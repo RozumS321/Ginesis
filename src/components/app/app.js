@@ -1,27 +1,18 @@
-import React,{useEffect} from 'react'
-import StartGame from '../startGame'
-import OverGame from '../overGame'
-import Game from '../game'
-import * as actions from '../../redux/actions'
-import { connect } from 'react-redux'
+import React, { useEffect } from "react";
+import StartGame from "../startGame";
+import OverGame from "../overGame";
+import Game from "../game";
+import * as actions from "../../redux/actions";
+import { connect } from "react-redux";
 
-function App({startGame}){
-
-    useEffect(()=>{
-        startGame()
-    })
-
-    return(
-        // <StartGame />
-            <Game />
-        // <OverGame/>
-    )
-}   
-
-const mapDispatchToProps = (dispatch) => {
-    return {
-        startGame: () => dispatch(actions.startGame())
-    }
+function App({ startGame, start }) {
+  return <>{start ? <Game /> : <StartGame />}</>;
 }
 
-export default connect(null, mapDispatchToProps)(App)
+const mapStateToProps = (state) => {
+  return {
+    start: state.start,
+  };
+};
+
+export default connect(mapStateToProps, null)(App);

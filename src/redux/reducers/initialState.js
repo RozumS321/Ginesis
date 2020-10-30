@@ -1,11 +1,11 @@
 let initialState = {
-    data:[],
-    disabled: false,
-    start: false,
-    price: 500,
-    total: '',
-    currentQuestion: 0
+  data: [],
+  disabled: false,
+  gameStart: false,
+  gameOver: false,
+  price: 500,
+  total: "",
+  currentQuestion: 0,
+};
 
-}
-
-export default initialState
+export default initialState;
