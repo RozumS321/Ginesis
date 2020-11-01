@@ -1,12 +1,12 @@
-let initialState = {
+const initialState = {
   data: [],
   disabled: false,
   gameStart: false,
   gameOver: false,
   price: '0',
-  total: "",
+  total: '',
   currentQuestion: 0,
-  answerIndex: null
+  answerIndex: null,
 };
 
 export default initialState;

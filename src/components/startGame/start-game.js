@@ -1,8 +1,8 @@
-import React from "react";
-import { ReactComponent as Logo } from "./hand1.svg";
-import { connect } from "react-redux";
-import * as actions from "../../redux/actions";
-import "./style.css";
+import React from 'react';
+import { connect } from 'react-redux';
+import { ReactComponent as Logo } from './hand1.svg';
+import * as actions from '../../redux/actions';
+import './style.css';
 
 function StartGame({ startGame }) {
   return (
@@ -25,10 +25,8 @@ function StartGame({ startGame }) {
   );
 }
 
-const mapDispatchToProps = (dispatch) => {
-  return {
-    startGame: () => dispatch(actions.startGame()),
-  };
-};
+const mapDispatchToProps = (dispatch) => ({
+  startGame: () => dispatch(actions.startGame()),
+});
 
 export default connect(null, mapDispatchToProps)(StartGame);

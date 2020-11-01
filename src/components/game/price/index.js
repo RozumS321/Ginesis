@@ -1,2 +1,3 @@
-import Price from "./price";
+import Price from './price';
+
 export default Price;

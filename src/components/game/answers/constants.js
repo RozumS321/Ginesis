@@ -1,1 +1,1 @@
-export const indexToLetters = ['A', 'B', 'C', 'D']
+export default ['A', 'B', 'C', 'D'];

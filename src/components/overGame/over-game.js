@@ -1,9 +1,10 @@
-import React from "react";
-import { ReactComponent as Logo } from "./hand1.svg";
-import { connect } from "react-redux";
-import * as actions from "../../redux/actions";
+import React from 'react';
+import { connect } from 'react-redux';
+import { ReactComponent as Logo } from './hand1.svg';
+import * as actions from '../../redux/actions';
 
-import "./style.css";
+import './style.css';
+
 function OverGame({ price, startGame }) {
   console.log(price);
   return (
@@ -27,15 +28,11 @@ function OverGame({ price, startGame }) {
   );
 }
 
-const mapStateToProps = (state) => {
-  return {
-    price: state.price,
-  };
-};
-const mapDispatchToProps = (dispatch) => {
-  return {
-    startGame: () => dispatch(actions.startGame()),
-  };
-};
+const mapStateToProps = (state) => ({
+  price: state.price,
+});
+const mapDispatchToProps = (dispatch) => ({
+  startGame: () => dispatch(actions.startGame()),
+});
 
 export default connect(mapStateToProps, mapDispatchToProps)(OverGame);

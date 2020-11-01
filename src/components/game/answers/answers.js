@@ -1,27 +1,30 @@
-import React, { useEffect } from "react";
-import { connect } from "react-redux";
-import "./answers.css";
-import { indexToLetters } from "./constants";
-import * as constants from "../../../redux/constants";
-import { stepQuestion, gameOver } from "../../../redux/actions";
+import React, { useEffect } from 'react';
+import { connect } from 'react-redux';
+import './answers.css';
+import indexToLetters from './constants';
+import * as constants from '../../../redux/constants';
+import { stepQuestion, gameOver } from '../../../redux/actions';
 
-function Answers({ data, currentQuestion, answerIndex, ...props }) {
+function Answers({
+  data, currentQuestion, answerIndex, ...props
+}) {
   const getAnswElClassName = (el) => {
-    if (answerIndex === null) return "answer";
-    return el.correct ? "answer correct" : "answer wrong";
+    if (answerIndex === null) return 'answer';
+    return el.correct ? 'answer correct' : 'answer wrong';
   };
 
   useEffect(() => {
     if (answerIndex === null) return;
     const question = data[currentQuestion];
     const answer = question.answers[answerIndex];
-    if (answer.correct) return props.stepQuestion(question.price);
-
-    return props.gameOver();
+    if (answer.correct) {
+      props.stepQuestion(question.price);
+      return;
+    }
+    props.gameOver();
   }, [answerIndex]);
 
-  const answers = data[currentQuestion].answers.map((el, index) => {
-    return (
+  const answers = data[currentQuestion].answers.map((el, index) => (
       <div
         className={getAnswElClassName(el)}
         onClick={() => props.setAnswerIndex(index)}
@@ -29,8 +32,7 @@ function Answers({ data, currentQuestion, answerIndex, ...props }) {
         <span>{indexToLetters[index]}</span>
         <h1>{el.answerText}</h1>
       </div>
-    );
-  });
+  ));
 
   return (
     <div className="wrapper">
@@ -39,21 +41,16 @@ function Answers({ data, currentQuestion, answerIndex, ...props }) {
   );
 }
 
-const mapStateToProps = (state) => {
-  return {
-    data: state.data,
-    currentQuestion: state.currentQuestion,
-    answerIndex: state.answerIndex,
-  };
-};
+const mapStateToProps = (state) => ({
+  data: state.data,
+  currentQuestion: state.currentQuestion,
+  answerIndex: state.answerIndex,
+});
 
-const mapDispatchToProps = (dispatch) => {
-  return {
-    stepQuestion: (price) => dispatch(stepQuestion(price)),
-    gameOver: () => dispatch(gameOver()),
-    setAnswerIndex: (index) =>
-      dispatch({ type: constants.SET_ANSWER_INDEX, answerIndex: index }),
-  };
-};
+const mapDispatchToProps = (dispatch) => ({
+  stepQuestion: (price) => dispatch(stepQuestion(price)),
+  gameOver: () => dispatch(gameOver()),
+  setAnswerIndex: (index) => dispatch({ type: constants.SET_ANSWER_INDEX, answerIndex: index }),
+});
 
 export default connect(mapStateToProps, mapDispatchToProps)(Answers);
