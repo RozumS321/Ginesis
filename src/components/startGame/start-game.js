@@ -8,11 +8,11 @@ function StartGame({ startGame }) {
   return (
     <div className="startGame">
       <div className="content">
-        <div className="section">
+        <div className="section ">
           <Logo className="img" />
         </div>
 
-        <div className="section">
+        <div className="section ">
           <div className="wrap">
             <h1 className="title">Who wants to be a millionaire?</h1>
             <button className="btn" onClick={startGame}>

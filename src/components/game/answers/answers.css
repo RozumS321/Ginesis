@@ -1,30 +1,61 @@
 .wrapper{
   display: grid;
-  grid-template-rows: 1fr 1fr;
   grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
 }
+
 .answer{
-  margin: 1rem 1rem;
-  background: #fff;
-  border: 1px solid #D0D0D8;
+  background-image: url(../../../img/inactive.svg);
+  background-repeat: round;
+  height: 7.2rem;
   display: flex;
-  flex-direction: row;
   cursor: pointer;
+  align-items: center;
+  justify-content: center;
 }
-span{
+.answer span{
   font-size: 2rem;
-  margin: 0 10px;
+  margin-right: .8rem;
+  text-align: center;
   color: #FF8B37;
 }
-h1{
+.answer h1{
   font-size: 2rem;
-  border: none
+  font-weight: 400;
+  max-width: 200px;
+  width:100%
 }
+
 .correct{
-border: 1px solid #47D867;
-background:  #E6FAEA;
+background-image: url(../../../img/correct.svg);
 }
+
 .wrong{
-background: #FDEEED;
-border: 1px solid #EC6259;
+  background-image: url(../../../img/wrong.svg);
+}
+
+.answer:active{
+  border: none;
+}
+
+@media only screen and (max-width: 853px){
+  .wrapper{
+  grid-template-columns: 1fr;
+
+  }
+  .answer{
+    background-position: center;
+    flex-basis: unset;
+    background-repeat: space;
+    background-size: contain;
+  }
+  .answer h1{
+    font-size: 1.4rem;
+    font-weight: 400;
+  }
+  .answer span {
+    font-size: 14px;
+    font-weight: 600;
+
+  }
 }

@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import * as actions from "../../redux/actions";
 import { connect } from "react-redux";
 import Question from "./question";
@@ -13,7 +13,12 @@ function Game() {
         <Question />
         <Answers />
       </div>
+      <input id="menu__toggle" type="checkbox" />
+      <label class="menu__btn" for="menu__toggle">
+        <span></span>
+      </label>
       <div className="game-left">
+
         <Price />
       </div>
     </div>

@@ -1,134 +1,279 @@
 {
-    "questions":[
-            {
+    "questions": [
+        {
             "id": "1",
             "title": "How old your elder brother was 10 years before you was born, mate?",
             "price": "500",
-            "answers":[
-                {"answerText": "10 years", "correct":true},
-                {"answerText": "11 years", "correct":false},
-                {"answerText": "12 years", "correct":false},
-                {"answerText": "13 years", "correct":false}
+            "answers": [
+                {
+                    "answerText": "10 years",
+                    "correct": true
+                },
+                {
+                    "answerText": "11 years",
+                    "correct": false
+                },
+                {
+                    "answerText": "12 years",
+                    "correct": false
+                },
+                {
+                    "answerText": "13 years",
+                    "correct": false
+                }
             ]
         },
         {
             "id": "2",
             "title": "In the UK, the abbreviation NHS stands for National 'What' Service?",
             "price": "1,000",
-            "answers":[
-                {"answerText": "Humanity", "correct":false},
-                {"answerText": "Health", "correct":true},
-                {"answerText": "Honour", "correct":false},
-                {"answerText": "Household", "correct":false}
+            "answers": [
+                {
+                    "answerText": "Humanity",
+                    "correct": false
+                },
+                {
+                    "answerText": "Health",
+                    "correct": true
+                },
+                {
+                    "answerText": "Honour",
+                    "correct": false
+                },
+                {
+                    "answerText": "Household",
+                    "correct": false
+                }
             ]
         },
         {
             "id": "3",
             "title": "Which Disney character famously leaves a glass slipper behind at a royal ball?",
             "price": "2,000",
-            "answers":[
-                {"answerText": "Pocahontas", "correct":false},
-                {"answerText": "Sleeping Beauty", "correct":false},
-                {"answerText": "Cinderella", "correct":true},
-                {"answerText": "Elsa", "correct":false}
+            "answers": [
+                {
+                    "answerText": "Pocahontas",
+                    "correct": false
+                },
+                {
+                    "answerText": "Sleeping Beauty",
+                    "correct": false
+                },
+                {
+                    "answerText": "Cinderella",
+                    "correct": true
+                },
+                {
+                    "answerText": "Elsa",
+                    "correct": false
+                }
             ]
         },
         {
             "id": "4",
             "title": "What name is given to the revolving belt machinery in an airport that delivers checked luggage from the plane to baggage reclaim?",
             "price": "4,000",
-            "answers":[
-                {"answerText": "Hangar", "correct":false},
-                {"answerText": "Terminal", "correct":false},
-                {"answerText": "Concourse", "correct":false},
-                {"answerText": "Carousel", "correct":true}
+            "answers": [
+                {
+                    "answerText": "Hangar",
+                    "correct": false
+                },
+                {
+                    "answerText": "Terminal",
+                    "correct": false
+                },
+                {
+                    "answerText": "Concourse",
+                    "correct": false
+                },
+                {
+                    "answerText": "Carousel",
+                    "correct": true
+                }
             ]
         },
         {
             "id": "5",
             "title": "Which of these brands was chiefly associated with the manufacture of household locks? ",
             "price": "8,000",
-            "answers":[
-                {"answerText": "Phillips", "correct":false},
-                {"answerText": "Flymo", "correct":false},
-                {"answerText": "Chubb", "correct":true},
-                {"answerText": "Ronseal", "correct":false}
+            "answers": [
+                {
+                    "answerText": "Phillips",
+                    "correct": false
+                },
+                {
+                    "answerText": "Flymo",
+                    "correct": false
+                },
+                {
+                    "answerText": "Chubb",
+                    "correct": true
+                },
+                {
+                    "answerText": "Ronseal",
+                    "correct": false
+                }
             ]
         },
         {
             "id": "6",
             "title": "The hammer and sickle is one of the most recognisable symbols of which political ideology?",
             "price": "16,000",
-            "answers":[
-                {"answerText": "Republicanism", "correct":false},
-                {"answerText": "Communism", "correct":true},
-                {"answerText": "Conservatism", "correct":false},
-                {"answerText": "Liberalism", "correct":false}
+            "answers": [
+                {
+                    "answerText": "Republicanism",
+                    "correct": false
+                },
+                {
+                    "answerText": "Communism",
+                    "correct": true
+                },
+                {
+                    "answerText": "Conservatism",
+                    "correct": false
+                },
+                {
+                    "answerText": "Liberalism",
+                    "correct": false
+                }
             ]
         },
         {
             "id": "7",
             "title": ". Which toys have been marketed with the phrase 'Robots in Disguise'?",
             "price": "32,000",
-            "answers":[
-                {"answerText": "Bratz Dolls", "correct":false},
-                {"answerText": " Sylvanian Families", "correct":false},
-                {"answerText": "Hatchimals", "correct":false},
-                {"answerText": "Transformers", "correct":true}
+            "answers": [
+                {
+                    "answerText": "Bratz Dolls",
+                    "correct": false
+                },
+                {
+                    "answerText": " Sylvanian Families",
+                    "correct": false
+                },
+                {
+                    "answerText": "Hatchimals",
+                    "correct": false
+                },
+                {
+                    "answerText": "Transformers",
+                    "correct": true
+                }
             ]
         },
         {
             "id": "8",
             "title": "What does the word loquacious mean?",
             "price": "64,000",
-            "answers":[
-                {"answerText": "Angry", "correct":false},
-                {"answerText": "Chatty", "correct":true},
-                {"answerText": "Beautiful", "correct":false},
-                {"answerText": "Shy", "correct":false}
+            "answers": [
+                {
+                    "answerText": "Angry",
+                    "correct": false
+                },
+                {
+                    "answerText": "Chatty",
+                    "correct": true
+                },
+                {
+                    "answerText": "Beautiful",
+                    "correct": false
+                },
+                {
+                    "answerText": "Shy",
+                    "correct": false
+                }
             ]
         },
-        {   "id": "9",
+        {
+            "id": "9",
             "title": "Obstetrics is a branch of medicine particularly concerned with what?",
             "price": "125,000",
-            "answers":[
-                {"answerText": "Childbirth", "correct":true},
-                {"answerText": "Broken bones", "correct":false},
-                {"answerText": "Heart conditions", "correct":false},
-                {"answerText": "Old age", "correct":false}
+            "answers": [
+                {
+                    "answerText": "Childbirth",
+                    "correct": true
+                },
+                {
+                    "answerText": "Broken bones",
+                    "correct": false
+                },
+                {
+                    "answerText": "Heart conditions",
+                    "correct": false
+                },
+                {
+                    "answerText": "Old age",
+                    "correct": false
+                }
             ]
         },
         {
             "id": "10",
             "title": "In Doctor Who, what was the signature look of the fourth Doctor, as portrayed by Tom Baker?",
             "price": "250,000",
-            "answers":[
-                {"answerText": "Bow-tie, braces & tweed jacket", "correct":false},
-                {"answerText": "Wide-brimmed hat & extra long scarf", "correct":true},
-                {"answerText": "Pinstripe suit & trainers", "correct":false},
-                {"answerText": "Cape, velvet jacket & frilly shirt", "correct":false}
+            "answers": [
+                {
+                    "answerText": "Bow-tie, braces & tweed jacket",
+                    "correct": false
+                },
+                {
+                    "answerText": "Wide-brimmed hat & extra long scarf",
+                    "correct": true
+                },
+                {
+                    "answerText": "Pinstripe suit & trainers",
+                    "correct": false
+                },
+                {
+                    "answerText": "Cape, velvet jacket & frilly shirt",
+                    "correct": false
+                }
             ]
         },
         {
             "id": "11",
             "title": "Which of these religious observances lasts for the shortest period of time during the calendar year? ",
             "price": "500,000",
-            "answers":[
-                {"answerText": "Ramadan", "correct":false},
-                {"answerText": "Diwali", "correct":true},
-                {"answerText": "Lent", "correct":false},
-                {"answerText": "Hanukkah", "correct":false}
+            "answers": [
+                {
+                    "answerText": "Ramadan",
+                    "correct": false
+                },
+                {
+                    "answerText": "Diwali",
+                    "correct": true
+                },
+                {
+                    "answerText": "Lent",
+                    "correct": false
+                },
+                {
+                    "answerText": "Hanukkah",
+                    "correct": false
+                }
             ]
         },
         {
             "id": "12",
             "title": "At the closest point, which island group is only 50 miles south-east of the coast of Florida? ",
             "price": "1,000,000",
-            "answers":[
-                {"answerText": "Bahamas", "correct":true},
-                {"answerText": "US Virgin Islands", "correct":false},
-                {"answerText": "Turks and Caicos Islands", "correct":false},
-                {"answerText": "Bermuda", "correct":false}
+            "answers": [
+                {
+                    "answerText": "Bahamas",
+                    "correct": true
+                },
+                {
+                    "answerText": "US Virgin Islands",
+                    "correct": false
+                },
+                {
+                    "answerText": "Turks and Caicos Islands",
+                    "correct": false
+                },
+                {
+                    "answerText": "Bermuda",
+                    "correct": false
+                }
             ]
         }
     ]

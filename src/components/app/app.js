@@ -1,17 +1,18 @@
-import React, { useEffect } from "react";
+import React from "react";
 import StartGame from "../startGame";
 import OverGame from "../overGame";
 import Game from "../game";
-import * as actions from "../../redux/actions";
 import { connect } from "react-redux";
 
-function App({ startGame, start }) {
+function App({ start, gameOver }) {
+  if (gameOver) return <OverGame />;
   return <>{start ? <Game /> : <StartGame />}</>;
 }
 
 const mapStateToProps = (state) => {
   return {
-    start: state.start,
+    start: state.gameStart,
+    gameOver: state.gameOver,
   };
 };
 

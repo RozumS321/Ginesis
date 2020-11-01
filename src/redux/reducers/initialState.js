@@ -3,9 +3,10 @@ let initialState = {
   disabled: false,
   gameStart: false,
   gameOver: false,
-  price: 500,
+  price: '0',
   total: "",
   currentQuestion: 0,
+  answerIndex: null
 };
 
 export default initialState;

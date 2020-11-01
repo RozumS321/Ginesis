@@ -4,7 +4,7 @@
     height: 100vh;
 
 }
-.content{
+.startGame .content{
     display: flex;
     width: 100%;
     height: 100%;
@@ -12,22 +12,20 @@
     margin: 0 auto;
 }
 
-.section {
+.startGame .section {
     display: flex;
     flex: 1 1 50%;
     height: 100%;
     justify-content: center;
     align-items: center;
-    padding: 10px;
+    padding: 6rem;
 }
-
-.title{
+.startGame .title{
     font-family: 'Inter', sans-serif;
-    color: #000;
+    color: #1C1C21;
     font-size: 5.6rem;
 }
-
-.btn{
+.startGame .btn{
     font-family: 'Inter', sans-serif;
     background-color: #FF8B37;
     color: #fff;
@@ -40,26 +38,38 @@
     font-size: 2rem ;
 }
 
-@media screen and (max-width: 853px) {
-    .content {
+@media only screen and (max-width: 853px) {
+
+   .startGame .content {
         flex-direction: column;
-        justify-content: center;
+        justify-content: flex-start;
+        padding: 0;
+
     }
 
-    .section {
-        flex: 0;
+    .startGame .section {
+        padding: 0;
         height: auto;
         align-items: unset;
-    }
-
-    .title {
+        margin: 0;
         text-align: center;
+
     }
 
-    .wrap {
+   .startGame .title { 
+        font-size: 3.2rem;
+    }
+
+   .startGame .wrap {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
+    .startGame .btn {
+        max-width: 288px;
+        width: 100%; 
+        height: 48px;
+    }
+
 }

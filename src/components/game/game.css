@@ -1,16 +1,33 @@
 .game{
     display: flex;
     justify-content: space-between;
-    background-color: #E5E5E5;
+    height: 100vh;
+    background-color: #F5F5F7;
 
 }
 .game-rigth{
     display: flex;
     justify-content: space-around;
     flex-direction: column;
+    padding-left: 8rem;
 }
 .game-left{
-    background-color: #E5E5E5;
     max-width: 376px;
     width: 100%;
+}
+input[type='button']{
+    outline: none;
+    border:none;
+}
+
+@media only screen and (max-width: 853px){
+    .gamep-left{
+        background: #F5F5F7;
+        max-width: unset;
+        min-width: 100%;
+    }
+    .game-rigth{
+        padding-left: 0;
+        min-width: 100%;
+    }
 }
